@@ -1,0 +1,43 @@
+*{
+	font-family: "Verdana", sans-serif;
+}
+
+#external {
+	color: yellow;
+	font-size: 20px;
+}
+
+h1{
+	font-size: 3em;
+}
+
+#uppercase{
+	text-transform: uppercase;
+}
+
+.languages{
+	background-color: #aed19d;
+}
+
+li[type]{
+	border-style: solid;
+	border-color:  rgb(157, 176, 209);
+}
+
+img + ul{
+	list-style-type: none;
+}
+
+section img{
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+ul > li {
+	letter-spacing: 10px;
+}
+
+ul ~ p {
+	text-align: center;
+}
